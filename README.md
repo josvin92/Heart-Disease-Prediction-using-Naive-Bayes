@@ -1,7 +1,7 @@
 # Heart-Disease-Prediction-using-Naive-Bayes
 Implemented Naive Bayes Classifier in order to detect the presence of heart disease using the records of previous patients.
 
-Dataset: Heart Disease Data Set, available from: https://archive.ics.uci.edu/ml/datasets/Heart+Disease
+Dataset: Heart Disease Data Set, available at: https://archive.ics.uci.edu/ml/datasets/Heart+Disease
 
 The dataset has 14 different features for each patient which are as follows:
 * age (in years), 
@@ -20,6 +20,5 @@ The dataset has 14 different features for each patient which are as follows:
 
 - A Naive Bayes Classifier was implemented from scratch without the use of any standard library and evaluated on the dataset obtained from UCI. 
 - This model was compared with the Gaussian Naive Bayes Classifier of sklearn library. 
-- I have used 5 random partitions of training and testing data to evaluate the implementation.
-
-- The classifier takes random partitions for 5 iterations, results were predicted with average accuracy being in the range 50% to 70%.
+- The classifier takes 5 random partitions of training and testing data to evaluate the implementation.
+- Results were predicted with accuracy being in the range 50% to 70%.
