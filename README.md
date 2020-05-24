@@ -1,14 +1,14 @@
 # Heart-Disease-Prediction-using-Naive-Bayes
-Implementation of naive bayes classifier in detecting the presence of heart disease using the records of previous patients.
+Implemented Naive Bayes Classifier in order to detect the presence of heart disease using the records of previous patients.
 
-Naive bayes classifier implemented from scratch without the use of any standard library and evaluation on the dataset available from UCI. Comparison of this model is made with Gaussian Naive Bayes Classifier of sklearn library. I have used 5 random partitions of training and testing dataset to evaluate the implementation and results are given for each partition.
+Dataset: Heart Disease Data Set, available from: https://archive.ics.uci.edu/ml/datasets/Heart+Disease
 
-Dataset for evaluating Naïve Bayes classifier: Heart Disease Data Set, available from: https://archive.ics.uci.edu/ml/datasets/Heart+Disease
+heartdisease.txt has 14 different features for every patient.
+The following 14 features were taken: age (in years), sex (male or female), cp (chest pain type), trestbps (resting blood pressure in mm Hg on admission to the hospital), chol (serum cholesterol in mg/dl) , restecg (resting electrocardiographic results), thalach (maximum heart rate achived), exang (exercise induced angina), oldpeak (ST depression induced by exercise relative to rest ), slope(the slope of the peak exercise ST segment), ca(number of major vessels (0-3) colored by flourosopy ) , thal( normal, fixed defect, reversable defect ), num (the predicted attribute) .
+
+A Naive Bayes Classifier was implemented from scratch without the use of any standard library and evaluated on the dataset available from UCI. 
+This model was compared with the Gaussian Naive Bayes Classifier of sklearn library. 
+I have used 5 random partitions of training and testing data to evaluate the implementation.
 
 
-
-heartdisease.txt is the dataset where 14 different attributes are taken for every patient.
-The following 14 attributes were taken: age (in years), sex (male or female), cp (chest pain type), trestbps (resting blood pressure in mm Hg on admission to the hospital), chol (serum cholesterol in mg/dl) , restecg (resting electrocardiographic results), thalach (maximum heart rate achived), exang (exercise induced angina), oldpeak (ST depression induced by exercise relative to rest ), slope(the slope of the peak exercise ST segment), ca(number of major vessels (0-3) colored by flourosopy ) , thal( normal, fixed defect, reversable defect ), num (the predicted attribute) .
-
-
-As the calssifier is taking random partitions for 5 different times, random results would be predicted with average accuracy being around 50.00 %.
+The classifier takes random partitions for 5 iterations, results were predicted with average accuracy being in the range 50% to 70%.
