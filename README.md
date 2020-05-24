@@ -18,7 +18,7 @@ The dataset has 14 different features for each patient which are as follows:
 * thal ( normal, fixed defect, reversable defect), 
 * num (the predicted attribute).
 
-- A Naive Bayes Classifier was implemented from scratch without the use of any standard library and evaluated on the dataset obtained from UCI. 
-- This model was compared with the Gaussian Naive Bayes Classifier of sklearn library. 
-- The classifier takes 5 random partitions of training and testing data to evaluate the implementation.
-- Results were predicted with accuracy being in the range 50% to 70%.
+1. A Naive Bayes Classifier was implemented from scratch without the use of any standard library and evaluated on the dataset obtained from UCI. 
+2. This model was compared against the Gaussian Naive Bayes Classifier of sklearn library. 
+3. The classifier takes 5 random partitions of training and testing data to evaluate the implementation.
+4. Results were predicted with accuracy being in the range 50% to 70%.
